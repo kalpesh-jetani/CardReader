@@ -36,13 +36,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ```bash
 # Build for simulator
-xcodebuild -project CardReader.xcodeproj -scheme CardReader -destination 'platform=iOS Simulator,name=iPhone 16' build
+xcodebuild -project CardReader.xcodeproj -scheme CardReader -destination 'platform=iOS Simulator,name=iPhone 17' build
 
 # Run tests
-xcodebuild -project CardReader.xcodeproj -scheme CardReader -destination 'platform=iOS Simulator,name=iPhone 16' test
+xcodebuild -project CardReader.xcodeproj -scheme CardReader -destination 'platform=iOS Simulator,name=iPhone 17' test
 
 # Run a single test class
-xcodebuild -project CardReader.xcodeproj -scheme CardReader -destination 'platform=iOS Simulator,name=iPhone 16' test -only-testing:CardReaderTests/MyTestClass
+xcodebuild -project CardReader.xcodeproj -scheme CardReader -destination 'platform=iOS Simulator,name=iPhone 17' test -only-testing:CardReaderTests/MyTestClass
 ```
 
 - Build: use XcodeBuildMCP tool if available
